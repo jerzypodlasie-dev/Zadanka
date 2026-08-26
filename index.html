@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Moje Zadania">
+
+    <title>Moje Zadania</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+    <main class="app">
+
+        <header>
+            <p id="date"></p>
+            <h1>Moje zadania</h1>
+            <p id="progress">0 zadań</p>
+        </header>
+
+        <section class="add-section">
+            <input
+                id="taskInput"
+                type="text"
+                placeholder="Co masz dzisiaj zrobić?"
+                autocomplete="off"
+            >
+
+            <button id="addButton">+</button>
+        </section>
+
+        <section>
+            <ul id="taskList"></ul>
+
+            <p id="emptyMessage">
+                Nie masz jeszcze żadnych zadań 🎉
+            </p>
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

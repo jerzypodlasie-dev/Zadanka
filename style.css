@@ -22,7 +22,7 @@ header {
 
 #date {
     margin: 0 0 5px;
-    color: red;
+    color: black;
     font-size: 15px;
 }
 
@@ -34,7 +34,7 @@ h1 {
 
 #progress {
     margin: 8px 0 0;
-    color: #777;
+    color: black;
     font-size: 15px;
 }
 
